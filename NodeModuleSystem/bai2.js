@@ -6,6 +6,6 @@
  * 3. Log ra kết quả
  */
 
-import multiply from "./math.js";
+var math = require("./math.js");
 
-console.log(multiply.add(2, 3));
+console.log(math.multiply(2, 3));
